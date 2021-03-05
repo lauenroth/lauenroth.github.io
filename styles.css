@@ -1,5 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300&display=swap');
 
+:root {
+  --color-background: #1d3557;
+  --color-text: #f1faee;
+  --color-secondary: #a8dadc;
+  --color-ternary: #457b9d;
+  --color-highlight: #e63946;
+}
+
 * {
   font-family: 'Merriweather Sans', Helvetica, Verdana, sans-serif;
 }
@@ -8,8 +16,12 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: conic-gradient(from 240deg at bottom right, #1d3557, #a8dadc);
-  color: #f6f6f6;
+  background: conic-gradient(
+    from 240deg at bottom right,
+    var(--color-background),
+    var(--color-secondary)
+  );
+  color: var(--color-text);
   margin: 0;
   height: 100vh;
 }
