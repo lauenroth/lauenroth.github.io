@@ -1,8 +1,19 @@
 {
   "short_name": "Jörg",
   "name": "Jörg Lauenroth",
-  "icons": [],
-  "start_url": "/index.html",
+  "icons": [
+    {
+      "src": "/images/jorg-192.jpg",
+      "type": "image/jpg",
+      "sizes": "192x192"
+    },
+    {
+      "src": "/images/jorg.jpg",
+      "type": "image/jpg",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "/?source=pwa",
   "background_color": "#1d3557",
   "display": "standalone",
   "scope": "/",
