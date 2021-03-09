@@ -1,0 +1,73 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&display=swap');
+
+:root {
+  --color-background: #1d3557;
+  --color-text: #f1faee;
+  --color-secondary: #a8dadc;
+  --color-ternary: #457b9d;
+  --color-highlight: #e63946;
+}
+
+* {
+  font-family: 'Comfortaa', Helvetica, Verdana, sans-serif;
+}
+
+html {
+  background-color: var(--color-background);
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: conic-gradient(
+    from 240deg at bottom right,
+    var(--color-background),
+    var(--color-secondary)
+  );
+  color: var(--color-text);
+  margin: 0;
+  height: 100vh;
+}
+
+section {
+  text-align: center;
+}
+
+h1 {
+  font-weight: normal;
+  font-size: 46px;
+  margin: 0 0 10px;
+  text-align: center;
+}
+
+p {
+  font-size: 1.2rem;
+  /* word-spacing: 10px; */
+  /* letter-spacing: 3px; */
+  margin: 0;
+}
+
+.social {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  right: 20px;
+  top: 20px;
+
+  svg {
+    fill: var(--color-text);
+    opacity: 0.6;
+    margin-left: 20px;
+    transition: 0.25s;
+  }
+
+  a:hover svg,
+  a:focus svg {
+    opacity: 1;
+    transform: scale(1.2);
+  }
+}
