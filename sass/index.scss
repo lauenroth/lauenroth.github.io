@@ -48,24 +48,35 @@ p {
   }
 
   li {
+    align-items: center;
+    display: flex;
+    height: 200px;
+    justify-content: center;
     list-style: none;
-    padding-bottom: 3rem;
+    margin-bottom: 3rem;
   }
 
   a {
+    align-self: stretch;
     background-color: var(--color-text);
     border-radius: 4px;
     color: var(--color-background);
     display: block;
-    height: 200px;
     padding: 20px;
     text-decoration: none;
     transition: 0.25s;
+    width: 100%;
 
     &:hover,
     &:focus {
       transform: scale(1.05);
     }
+  }
+
+  .your-project {
+    border: 1px dashed var(--color-text);
+    border-radius: 4px;
+    font-size: 1.8rem;
   }
 }
 
