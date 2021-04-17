@@ -1,0 +1,2 @@
+(self.webpackChunkjoerg=self.webpackChunkjoerg||[]).push([[317],{4969:function(e,n,t){"use strict";t.r(n);var r=t(7294),l=t(908);n.default=function(){return r.createElement(l.Z,null,r.createElement("section",null,r.createElement("h1",null,"My Projects"),r.createElement("p",null,"Here are some of the projects I've been working on")))}}}]);
+//# sourceMappingURL=component---src-pages-projects-tsx-19814b4ccf01c96bc2cb.js.map

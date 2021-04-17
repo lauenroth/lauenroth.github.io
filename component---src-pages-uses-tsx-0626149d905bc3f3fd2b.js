@@ -1,0 +1,2 @@
+(self.webpackChunkjoerg=self.webpackChunkjoerg||[]).push([[41],{8519:function(e,t,n){"use strict";n.r(t);var u=n(7294),l=n(908);t.default=function(){return u.createElement(l.Z,null,u.createElement("section",null,u.createElement("h1",null,"My setup"),u.createElement("p",null,"I'm quite happy with my current setup. It's very useful in these pandemic times we're currently living in.")))}}}]);
+//# sourceMappingURL=component---src-pages-uses-tsx-0626149d905bc3f3fd2b.js.map
