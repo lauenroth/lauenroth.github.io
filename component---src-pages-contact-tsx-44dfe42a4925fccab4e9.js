@@ -1,0 +1,2 @@
+(self.webpackChunkjoerg=self.webpackChunkjoerg||[]).push([[650],{5424:function(e,t,n){"use strict";n.r(t);var l=n(7294),u=n(2919);t.default=function(){return l.createElement(u.Z,null,l.createElement("section",null,l.createElement("h1",null,"Let's get in touch"),l.createElement("p",null)))}}}]);
+//# sourceMappingURL=component---src-pages-contact-tsx-44dfe42a4925fccab4e9.js.map
