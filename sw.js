@@ -30,14 +30,14 @@ self.__precacheManifest = [
     "url": "framework-6c480ce1ccc3e017629d.js"
   },
   {
-    "url": "app-a33af7b980e9af159495.js"
+    "url": "app-e62e1ce83c1edbec927c.js"
   },
   {
     "url": "offline-plugin-app-shell-fallback/index.html",
-    "revision": "9fbe8be64352104668dc34325134e2db"
+    "revision": "34d4cc31f579aaa286854d65c4996d86"
   },
   {
-    "url": "webpack-runtime-1ed2cd7d7576df0c85d7.js"
+    "url": "webpack-runtime-b3c46f0b339b59af8e6c.js"
   },
   {
     "url": "component---cache-caches-gatsby-plugin-offline-app-shell-js-b5c5e98488572b7323ed.js"
@@ -49,13 +49,13 @@ self.__precacheManifest = [
     "url": "styles.b46d25d0432ff77bdacd.css"
   },
   {
-    "url": "51214ca31ba9c4b750156c9ae811332305058ea7-b0ae865ea17d5930c49d.js"
+    "url": "bd33b15356498d4a0ab9c90adc0e552e72f25fdf-91b995abe1a141ef9598.js"
   },
   {
-    "url": "9940a3f00ee66defc11f9fa54e9c7afd13175da3-c5d5b2f2b6716b23596b.js"
+    "url": "a036520b66f696eb996201532078bdd1d075609c-1305e5d7395a25100cc4.js"
   },
   {
-    "url": "component---src-pages-index-tsx-d61f4ba12d80a17c4df8.js"
+    "url": "component---src-pages-index-tsx-732303014962b4640b88.js"
   },
   {
     "url": "page-data/index/page-data.json",
@@ -63,24 +63,24 @@ self.__precacheManifest = [
   },
   {
     "url": "page-data/app-data.json",
-    "revision": "e160f50edb820fc9ad4cfb7248e33045"
+    "revision": "8904956fd4176fd7ac12c2af33b7e33b"
   },
   {
-    "url": "component---src-pages-about-tsx-8d464453e8e6ac3ff60f.js"
+    "url": "component---src-pages-about-tsx-b994318c239869b23216.js"
   },
   {
     "url": "page-data/about/page-data.json",
     "revision": "bcea690ce3f71d390a08ba9805c167bb"
   },
   {
-    "url": "component---src-pages-projects-tsx-f4f7dc4bc95a18e40681.js"
+    "url": "component---src-pages-projects-tsx-5262193146059a5e72e7.js"
   },
   {
     "url": "page-data/projects/page-data.json",
     "revision": "b54d52b63fb8ae7a3ebba81230cfa50c"
   },
   {
-    "url": "component---src-pages-uses-tsx-5f1b3d16e04cc9deed64.js"
+    "url": "component---src-pages-uses-tsx-2f7808bd9de05a2c35c4.js"
   },
   {
     "url": "page-data/uses/page-data.json",
@@ -180,7 +180,7 @@ const navigationRoute = new NavigationRoute(async ({ event }) => {
   // Check for resources + the app bundle
   // The latter may not exist if the SW is updating to a new version
   const resources = await idbKeyval.get(`resources:${pathname}`)
-  if (!resources || !(await caches.match(`/app-a33af7b980e9af159495.js`))) {
+  if (!resources || !(await caches.match(`/app-e62e1ce83c1edbec927c.js`))) {
     return await fetch(event.request)
   }
 
